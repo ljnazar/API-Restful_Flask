@@ -25,7 +25,7 @@ function getData() {
         msj_datos.style.display = "block";
 
         msj_datos.innerHTML = `<div>
-                                    <strong>Dato recivido desde el backend: ${response.data.dato_enviado}</strong>
+                                    <strong>Recibido desde el backend: ${response.data.dato_enviado}</strong>
                                 </div>`;
     })
     .catch(function (error) {
