@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <!-- Fix: IE 11 uses IE 7 mode -->
+        <meta http-equiv="x-ua-compatible" content="IE=edge">
+        <!-- responsive web -->
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>---- Example ----</title>
+        <!-- Bootstrap -->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    </head>
+    <body>
+        <main>
+            <div class="container">
+                <div class="row">
+                    <h1 class="col text-center my-4">API RESTFUL with Flask</h1>
+                </div>
+                <form class="form">
+                    <div class="row">
+                        <div class="col-lg-4 col-md-4"></div>
+                        <div class="col-lg-4 col-md-4 col-ms-12 d-flex my-4">
+                            <input type="text" class="form-control input form me-3" placeholder="Ingrese dato" autocomplete="off">
+                            <button type="submit" id="button-send" class="btn btn-success float-left" onclick="getData()">Enviar</button>
+                        </div>
+                        <div class="col-lg-4 col-md-4"></div>
+                    </div>
+                </form>
+                <div id="message" class="text-center my-4"></div>
+            </div>
+        </main>
+
+        <footer>
+        </footer>
+        
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.18.0/axios.min.js"></script>
+        <script type="text/javascript" src="static/js/app.js"></script>
+
+    </body>
+</html>
